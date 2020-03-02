@@ -17,7 +17,6 @@ Gem::Specification.new do |s|
   s.cert_chain  = ['certs/lines-engine.pem']
   s.signing_key = File.expand_path("~/.ssh/gem-private_key.pem") if $0 =~ /gem\z/
 
-, '<= 6'
   s.add_runtime_dependency 'orm_adapter', '>= 0.5'
   s.add_runtime_dependency 'thread_safe', '>= 0.3'
   s.add_runtime_dependency 'railties', '>= 3.2.6'
